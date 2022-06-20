@@ -50,7 +50,7 @@ let s:R2   = [ s:gui06, s:gui02, s:cterm06, s:cterm02 ]
 let s:R3   = [ s:gui09, s:gui01, s:cterm09, s:cterm01 ]
 let g:airline#themes#base16_gruvbox_dark_hard#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
 
-let s:V1   = [ s:gui01, s:gui0E, s:cterm01, s:cterm0E ]
+let s:V1   = [ s:gui01, s:gui09, s:cterm01, s:cterm0E ]
 let s:V2   = [ s:gui06, s:gui02, s:cterm06, s:cterm02 ]
 let s:V3   = [ s:gui09, s:gui01, s:cterm09, s:cterm01 ]
 let g:airline#themes#base16_gruvbox_dark_hard#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
